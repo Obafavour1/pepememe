@@ -42,13 +42,16 @@
                     </nav>
                 </header>
     
-                <section id="hero" class="pt-48 min-h-[500px]  text-white md:pt-[100px] lg:pt-56">
-                    <div class="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8 xl:px-16 2xl:px-24">
-                        <div class="w-full lg:w-1/2 grid gap-4">
+                <section id="hero" class="pt-28 min-h-[500px]  text-white md:pt-[100px] lg:pt-48">
+                    <div class="mx-auto max-w-[1440px] flex flex-col  md:flex-row px-6 md:px-12 lg:px-8 xl:px-16 2xl:px-24">
+                        <div class="w-full lg:w-1/2 grid flex max-md:order-2 gap-4">
                             <h1 class="text-[50px] header-gradient lg:text-[63px] "><span class="text-gradient">Pepe Mania</h1>
                             <p class="text-[18px] lg:text-[20px] w-full lg:w-[60%]">Welcome to PEPE MEME! The hilarious coin on this side of blockchain!
                             </p>
-                            <a href="#buy" class="py-4 px-3 mt-4 border flex justify-center border-1 w-[50%]">Buy Token</a>
+                            <a href="#buy" class="py-3 h-[50px]  px-3 mt-4 border flex justify-center border-1 w-[50%]">Buy Token</a>
+                        </div>
+                        <div class="pulsate-fwd ml-[10px] w-full lg:w-1/2 justify-center text-center">
+                            <img src="/img/hero.jpg" alt="" class=" w-[250px] text-center lg:w-[400px] rounded-full">
                         </div>
                     </div>
                 </section>
@@ -68,7 +71,7 @@
 
             <section id="token" class="pt-11 text-white md:pt-[100px] lg:pt-22">
                 <div class="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-8 xl:px-16 2xl:px-24">
-                    <h2 class="text-center text-[48px] header-gradient mb-10">TOKENOMICS</h2>
+                    <h2 class="text-center text-[46px] header-gradient mb-10 slide-in-bottom">TOKENOMICS</h2>
                     <div class="flex md:flex-row flex-col gap-4">
                         <div class="w-full md:w-1/2 ">
                             <div class="grid gap-12">
@@ -78,7 +81,7 @@
                                 <p class="rounded-full flex justify-center py-4 px-4 bg-gradient-to-r from-blue-900 to-indigo-500 md:w-[70%]">TAX : 2/2</p>
                             </div>
                         </div>
-                        <img src="/img/section mobile.png" alt="">
+                        <img src="/img/section mobile.png" class="slide-in-right md:hidden" alt="">
                         <div class="md:w-1/2">
                             <div class="relative">
                                 <img class="hidden md:flex" src="/img/sectionDesktop.png" alt="">
@@ -96,17 +99,17 @@
                     <div class="grid lg:grid-cols-3 md:grid-cols-3 relative gap-1 lg:gap-4 text-white max-w-[1040px] mx-auto">
                         <div class="card">
                             <h3>Create a Wallet</h3>
-                            <p>Download TrustWallet or your wallet of choice from the App store or Google
+                            <p>Download TrustWallet or your wallet of choice that supports BASE blockchain from the App store or Google
                                 Play store for free. Desktop users, download the
                                 Google Chrome Extension by going to <span class="span-link"><a href="https://www.bing.com/ck/a?!&&p=00f0f01a0f03163aJmltdHM9MTcxMjM2MTYwMCZpZ3VpZD0wNTBlZDcwNi04NDgzLTZlODktMDZjMi1jNGQ3ODU5ZTZmNDkmaW5zaWQ9NTQ4MA&ptn=3&ver=2&hsh=3&fclid=050ed706-8483-6e89-06c2-c4d7859e6f49&psq=trustwaller&u=a1aHR0cHM6Ly90cnVzdHdhbGxldC5jb20vZG93bmxvYWQ&ntb=1">trustwallet.app</a></span>.
                             </p>
                         </div>
                         <div class="card ">
     
-                            <h3>Buy some Usdt.</h3>
-                            <p>Have SOL in your wallet to switch to PEPE. 
-                                If you don’t have Usdt, you can buy and transfer from another wallet, 
-                                or buy on another exchange and send it to your wallet.
+                            <h3>Buy some BASE.</h3>
+                            <p>Have BASE in your wallet to switch to PEPE. 
+                                If you don’t have BASE, you can buy from any DEX and transfer from another wallet 
+                                 and send it to your wallet.
                             </p>
                         </div>
                         <div class="card">
@@ -122,6 +125,10 @@
                     <!-- <div class=" mx-auto mt-[-1000px]">
                         <img class="hidden md:flex absolute " src="/img/light beam desktop.png" alt="">
                     </div> -->
+                </div>
+                <div class="mt-[60px] w-full text-center">
+                    <span class="text-blue-200">Contract Address:</span>
+                    <p class="text-[14px] md:text-[18px]">B5Fs5w3Bk1ZFyaPDccLH1pERjKBsLyZq3TNDDkfguK3f</p>
                 </div>
             </section>
             
@@ -150,12 +157,13 @@
                                     <a href="https://x.com/PMT_Base"><img src="/img/twitter.png" class="w-[30px] h-[20px]" alt=""></a>
                                 </div>
                             </div>
-                            <p class="mt-[10px] text-[14px] lg:text-[18px]">&copy;2024 Pepe Meme. All rights reserved</p>
+                            <p class="mt-[10px] text-[14px] lg:text-[16px]">&copy;2024 Pepe Meme. All rights reserved</p>
                         </div>
                     </div>
-                    <img src="/img/footer-light beam mobile.png" class="absolute z-10" alt="">
+                    <!-- <img src="/img/footer-light beam mobile.png" class="absolute z-10" alt=""> -->
                 </div>
             </footer>
+
         </div>
     </div>
 </body>
